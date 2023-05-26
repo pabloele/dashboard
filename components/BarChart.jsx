@@ -35,6 +35,19 @@ const BarChart = () => {
         },
       ],
     });
+    setChartOptions({
+      plugins: {
+        legend: {
+          position: "top",
+        },
+        title: {
+          display: true,
+          text: "Ingresos diarios",
+        },
+        mantainAspectRatio: false,
+        responsive: true,
+      },
+    });
   }, []);
   return (
     <>
