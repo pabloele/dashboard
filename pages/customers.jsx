@@ -31,7 +31,7 @@ const Customers = () => {
                     {order.name.first} {order.name.last}
                   </p>
                 </div>
-                <p className="text-gray-600 sm:text-left text-right">
+                <p className="text-gray-600 sm:text-left text-right text-sm">
                   {order.name.first}@gmail.com
                 </p>
                 <p className="hidden md:flex">{order.date}</p>
